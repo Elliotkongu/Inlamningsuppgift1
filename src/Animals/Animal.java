@@ -19,7 +19,7 @@ public class Animal {
         }
     }
     // Alla variabler är protected och i ett eget paket för de får inte vara public (vi vill inte
-    // att någong ändrar ett djurs namn eller vikt) men subklasserna får inte tillgång till name eller
+    // att någon ändrar ett djurs namn eller vikt) men subklasserna får inte tillgång till name eller
     // weightInKg om de är private.
     protected String name;
     protected double weightInKg;
